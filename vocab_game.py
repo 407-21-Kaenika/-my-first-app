@@ -131,5 +131,5 @@ if "start" in st.session_state and not st.session_state.get("is_ended", False):
 if st.session_state.get("is_ended", False):
     def show_result_dialog(ans1, ans2, ans3, ans4):
 
-st.divider()
-st.write("นางสาวเกณิกา พูลทะจักร์ เลขที่ 21 ม.4/7")
+   st.divider()
+   st.write("นางสาวเกณิกา พูลทะจักร์ เลขที่ 21 ม.4/7")
